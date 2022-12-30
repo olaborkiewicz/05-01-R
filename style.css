@@ -1,0 +1,29 @@
+.square {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.circle {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  background-color: crimson;
+  margin: auto;
+  margin-bottom: 90px;
+}
+
+.diamond {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  transform: rotate(45deg);
+  background-color: purple;
+  margin: auto;
+  margin-top: 50px;
+}
